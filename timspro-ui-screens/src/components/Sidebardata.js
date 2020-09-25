@@ -1,11 +1,11 @@
 import React from 'react';
-
+import pic from '../assests/pic.png';
 
 export const SidebarData = [
   {
     title: 'Admin',
     path: '/',
-  //  icon: <AiIcons.AiFillHome />,
+    icon: pic,
     cName: 'nav-text'
   },
   {

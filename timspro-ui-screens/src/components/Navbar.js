@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { SidebarData } from './Sidebardata';
-
+import icon from './../assests/pic.png';
 function Navbar() {
   return (
     <>
@@ -17,7 +17,8 @@ function Navbar() {
               return (
                 <li key={index} className={item.cName}>
                   <Link to={item.path}>
-                    {/* {item.icon} */}
+                     {/* {item.icon} */}
+                     <img src={item.icon} style={{"height":"22px"}} alt=""/>
                     <span>{item.title}</span>
                   </Link>
                 </li>

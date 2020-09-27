@@ -10,37 +10,37 @@ import logout from './../assests/icons/logout.svg';
 export const SidebarData = [
   {
     title: 'Admin',
-    path: '/',
+    path: '/admin',
     icon: Admin,
     cName: 'nav-text'
   },
   {
     title: 'Home',
-    path: '/reports',
+    path: '/home',
     icon: home,
     cName: 'nav-text',
   },
   {
     title: 'Student',
-    path: '/products',
+    path: '/students',
     icon: student,
     cName: 'nav-text'
   },
   {
     title: 'Exam',
-    path: '/team',
+    path: '/exam',
     icon: exam,
     cName: 'nav-text'
   },
   {
     title: 'Report',
-    path: '/messages',
+    path: '/reports',
     icon: report,
     cName: 'nav-text'
   },
   {
     title: 'Logout',
-    path: '/messages',
+    path: '/logout',
     icon: logout,
     cName: 'nav-text-bottom'
   }

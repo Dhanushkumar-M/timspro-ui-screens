@@ -1,0 +1,102 @@
+:root {
+    --primary: #3076F6;
+    --outline: black;
+    --white: #FFFFFF;
+    
+}
+
+
+.btn {
+    border: none;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 16px;
+    font-family: "Roboto",sans-serif ;
+    transition: all 0.4s;
+    border-radius: 4px;
+    width:100px;
+    height: 32px;
+    align-items: center;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+
+/* Button Color And Styles*/
+
+.btn--primary--solid {
+    background-color: var(--primary);
+    color: var(--white);
+}
+
+.btn--outline--solid{
+    background-color:var(--white);
+    color: var(--outline);
+    border: 1px solid var(--outline);
+
+}
+.btn--primary--outline{
+    background-color:var(--white);
+    color: var(--primary);
+    border:1px solid #3076F6;
+    box-sizing: border-box;
+}
+.btn--primary--outline--solid{
+    background-color:var(--white);
+    color: var(--outline);
+    border: 1px solid var(--outline);
+}
+
+
+/*Button Hover State....*/
+
+.btn--primary--solid:hover{
+    background-color: #1E64E6;
+}
+.btn--outline--solid:hover{
+    background-color: #F3F6FA;
+}
+.btn--primary--outline:hover{
+    background-color: #1E64E6;
+    color:var(--white);
+}
+.btn--primary--outline--solid:hover{
+    background-color: #1E64E6;
+    color:var(--white);
+}
+
+/* Button Pressed State..*/
+
+
+.btn--primary--solid:focus{
+    background-color: #0D3E98;
+    outline: none;
+}
+.btn--outline--solid:focus{
+    background-color: #E6EBF2;
+}
+.btn--primary--outline:focus{
+    background-color: #0D3E98;
+    color:var(--white);
+    outline:none;
+}
+.btn--primary--outline--solid:focus{
+    background-color: #0D3E98;
+    color: var(--white);
+    outline: none;
+}
+
+
+/* Button Size*/
+
+.btn--medium{
+    width: 100px;
+    height: 32px;
+}
+
+.btn--large{
+    width: 140px;
+    height: 40px;
+    font-size: 16px;
+}

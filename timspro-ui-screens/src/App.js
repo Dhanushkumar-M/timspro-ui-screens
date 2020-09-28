@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
-import Navbar from './components/Navbar';
+import Navbar from './components/common/Navbar';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Home from './pages/Home';
-import Reports from './pages/Reports';
-import Students from './pages/Students';
-import Admin from './pages/Admin';
-import Exam from './pages/Exam';
+import Home from './components/pages/Home';
+import Reports from './components/pages/Reports';
+import Students from './components/pages/Students';
+import Admin from './components/pages/Admin';
+import Exam from './components/pages/Exam';
 
 function App() {
   return (

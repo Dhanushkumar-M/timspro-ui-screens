@@ -1,10 +1,11 @@
 import React from 'react';
-import Admin from './../assests/icons/admin.svg';
-import home from './../assests/icons/home.svg';
-import student from './../assests/icons/student.svg';
-import exam from './../assests/icons/exam.svg';
-import report from './../assests/icons/report.svg';
-import logout from './../assests/icons/logout.svg';
+import Admin from './../../assests/icons/admin.svg';
+import home from './../../assests/icons/home.svg';
+import student from './../../assests/icons/student.svg';
+import exam from './../../assests/icons/exam.svg';
+import report from './../../assests/icons/report.svg';
+import logout from './../../assests/icons/logout.svg';
+
 
 
 export const SidebarData = [

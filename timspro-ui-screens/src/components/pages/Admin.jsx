@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import Button from './../components/Button';
+import Button from './../common/Button';
 export default class App extends Component {
 
     handleClick = (event) => {

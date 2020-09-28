@@ -16,6 +16,7 @@
     transition: all 0.4s;
     border-radius: 4px;
     width:100px;
+<<<<<<< HEAD
     height: 42px;
     align-items: center;
     letter-spacing: 1px;
@@ -23,6 +24,12 @@
     margin-left: 16px;
     align-content: center;  
 
+=======
+    height: 32px;
+    align-items: center;
+    letter-spacing: 1px;
+    cursor: pointer;
+>>>>>>> 1d4016d0f4074631ca4659486a107580be38d105
 }
 
 
@@ -37,7 +44,10 @@
     background-color:var(--white);
     color: var(--outline);
     border: 1px solid var(--outline);
+<<<<<<< HEAD
     margin-left: 16px;
+=======
+>>>>>>> 1d4016d0f4074631ca4659486a107580be38d105
 
 }
 .btn--primary--outline{

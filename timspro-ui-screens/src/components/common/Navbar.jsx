@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { SidebarData } from './Sidebardata';
+import { SidebarData } from './Sidebardata.jsx';
 
 function Navbar() {
   return (

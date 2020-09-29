@@ -16,20 +16,10 @@
     transition: all 0.4s;
     border-radius: 4px;
     width:100px;
-<<<<<<< HEAD
-    height: 42px;
-    align-items: center;
-    letter-spacing: 1px;
-    cursor: pointer;
-    margin-left: 16px;
-    align-content: center;  
-
-=======
     height: 32px;
     align-items: center;
     letter-spacing: 1px;
     cursor: pointer;
->>>>>>> 1d4016d0f4074631ca4659486a107580be38d105
 }
 
 
@@ -38,16 +28,15 @@
 .btn--primary--solid {
     background-color: var(--primary);
     color: var(--white);
+    margin-right: 90px;
 }
 
 .btn--outline--solid{
     background-color:var(--white);
     color: var(--outline);
     border: 1px solid var(--outline);
-<<<<<<< HEAD
-    margin-left: 16px;
-=======
->>>>>>> 1d4016d0f4074631ca4659486a107580be38d105
+    margin-left: 65px;
+    margin-right: 16px;
 
 }
 .btn--primary--outline{

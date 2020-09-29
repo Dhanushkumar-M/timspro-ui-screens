@@ -1,0 +1,61 @@
+.logintopnav{
+    height:  60px;
+    width: 100%;
+    background-color: #F3F6FA;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    
+}
+
+.logintopnavtext{
+    margin-left: 16px;    
+}
+
+.logoposition{
+    margin-left: 16px;
+    font-weight: bold;
+    font-size: 36px;
+    font-family: "Roboto";
+    align-items: center;
+}
+
+.btn--style{
+    margin-left: 67%;
+}
+
+.login--btn--style{
+    margin-left: 40%;
+    margin-top: 60%;
+    margin-bottom: auto;
+    margin-right: auto;
+}
+
+.login--heading{
+    margin-left: 30px;
+    margin-top:30px;
+    margin-bottom: auto;
+    margin-right: auto;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+
+.square {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    border-radius: 8%;
+    position: fixed;
+    &-content{
+        height:422px;
+        width: 450px;
+        border-radius: 25px;
+        background-color: white;
+        box-shadow: 4px 4px 8px #E5E5E5;
+        margin-top: auto;
+        margin-left: auto;
+        margin-right: 220px;
+        margin-bottom: 180px;
+    }
+}
+

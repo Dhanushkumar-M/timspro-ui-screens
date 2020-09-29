@@ -1,6 +1,6 @@
 import React from 'react';
-import LpTopNav from '../components/LpTopNav';
-// import Image from './../Assets/BgImage'
+import LpTopNav from './../common/LpTopNav';
+import Image from './../../assests/images/lpimage.svg'
 
 function Landingpage() {
     return (

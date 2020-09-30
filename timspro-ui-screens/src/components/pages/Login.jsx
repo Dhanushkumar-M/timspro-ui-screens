@@ -14,6 +14,14 @@ function Login(){
         <div className="square">
             <div className="square-content">
                 <h1 className="login--heading">LOGIN</h1>
+                <div className="text--box">
+                        <form>
+                            <p>Username</p>
+                            <input type="text"/>
+                            <p>Password</p>
+                            <input type="text"/>
+                        </form>
+                    </div>
                 <div className="login--btn--style">
                 <Button
                     onClick={()=>{alert("You will be redirected to Login Page Soon!!!...")}}

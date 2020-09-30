@@ -1,0 +1,50 @@
+.registertopnav{
+    height:  60px;
+    width: 100%;
+    background-color: #F3F6FA;
+    display: flex;
+    justify-content: left;
+    align-items: center; 
+}
+
+.registertopnavtext{
+    margin-left: 16px;    
+}
+
+.logoposition{
+    margin-left: 16px;
+    font-weight: bold;
+    font-size: 36px;
+    font-family: "Roboto";
+    align-items: center;
+}
+
+.btn--style{
+    margin-left: 70%;
+    position: relative;
+}
+
+.register--btn--style{
+    position: relative;
+    right: 123px;
+}
+
+.column--wrapper {
+    position: relative;
+}
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    align-items: center;
+  }
+  

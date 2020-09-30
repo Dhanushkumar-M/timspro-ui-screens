@@ -9,11 +9,14 @@ import Admin from './components/pages/Admin';
 import Exam from './components/pages/Exam';
 import Landingpage from './components/pages/Landingpage'
 import Login from './components/pages/Login'
+import Registration from './components/pages/Registration'
 
 function App() {
   return (
     <>
-    <Login/>
+    <Registration/>
+    {/* <Login/> */}
+    {/* <Landingpage/> */}
       {/* <Router>
         <Navbar />
         <Switch>

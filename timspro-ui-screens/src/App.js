@@ -14,8 +14,8 @@ import Registration from './components/pages/Registration'
 function App() {
   return (
     <>
-    <Registration/>
-    {/* <Login/> */}
+    {/* <Registration/> */}
+    <Login/> 
     {/* <Landingpage/> */}
       {/* <Router>
         <Navbar />

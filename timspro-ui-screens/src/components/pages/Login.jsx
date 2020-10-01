@@ -2,6 +2,7 @@ import React from 'react'
 import Logintopnav from './../common/Logintopnav'
 import Image1 from './../../assests/images/loginimg.svg'
 import Button from './../common/Button'
+import {Input as InputText} from './../common/Input'
 
 
 function Login(){
@@ -14,17 +15,22 @@ function Login(){
         <div className="square">
             <div className="square-content">
                 <h1 className="login--heading">LOGIN</h1>
+                <div className="login--details--view">
+                    <p>Username</p>
+                </div>
                 <div className="text--box">
-                        <form>
-                            <p>Username</p>
-                            <input type="text"/>
-                            <p>Password</p>
-                            <input type="text"/>
-                        </form>
+                        <InputText className="text--box"/>
+                </div>
+                <div className="login--details--view">
+                    <p>Password</p>
+                </div>
+                    <div className="text--box">
+                        <InputText className="text--box"/>
                     </div>
+
                 <div className="login--btn--style">
                 <Button
-                    onClick={()=>{alert("You will be redirected to Login Page Soon!!!...")}}
+                    onClick={()=>{alert("You will be redirected to Admin Page Soon!!!...")}}
                     type="button"
                     buttonStyle="btn--primary--solid">Login</Button> 
                 </div>

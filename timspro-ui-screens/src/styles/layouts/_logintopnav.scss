@@ -25,7 +25,7 @@
 
 .login--btn--style{
     margin-left: 40%;
-    margin-top: 30%;
+    margin-top: 15%;
     margin-bottom: auto;
     margin-right: auto;
 }
@@ -41,10 +41,16 @@
 }
 
 .text--box{
-    margin-top: 10%;
+    margin-top: 16px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.login--details--view{
+    font-family: "Roboto";
+    margin-top: 5%;
+    margin-left: 15%;
 }
 
 .square {

@@ -26,7 +26,7 @@ export const Input = ({
             placeholder={placeholder}
             onChange={onChangeHandler}
             style={{ height,width}}
-          />
+         disabled />
       </div>
       {/* Input Message */}
       {inputMsg ? (

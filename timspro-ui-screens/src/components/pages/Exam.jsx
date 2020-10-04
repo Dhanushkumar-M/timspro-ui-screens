@@ -6,8 +6,9 @@ function Students() {
     <div className='exam'>
       <h1>Exam</h1>
       <Input
-        type="textarea"
+        type="file"
         placeholder="hello world"
+        className="default-input"
         
       />
     </div>

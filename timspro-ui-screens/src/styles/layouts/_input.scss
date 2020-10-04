@@ -4,19 +4,26 @@
     font-weight: normal;
     font-size: 14px;
     line-height: 22px;
-    color: #8d8f9f;
+    color: #A9B1BB;
     margin-top: 4px;
   }
   
   .default-input {
-    width: 100%;
+    width: 239px;
     input {
       padding: 0px 12px;
-      width: 100%;
+      width: 239px;
       border: none;
       outline: none;
       border-radius: 4px;
       border: 1px solid #bbbcc5;
-      height: 35px;
+      height: 32px;
+    }
+    input:hover{
+      border-color: #3B4450;
+    }
+    input:focus{
+      border-color: #3076F6;
     }
   }
+  

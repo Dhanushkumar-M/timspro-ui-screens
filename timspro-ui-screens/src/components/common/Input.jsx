@@ -26,7 +26,6 @@ export const Input = ({
             placeholder={placeholder}
             onChange={onChangeHandler}
             style={{ height,width}}
-
           />
       </div>
       {/* Input Message */}

@@ -1,0 +1,18 @@
+.dropdown{
+    width: 239px;
+    height: 32px;
+    border-radius: 4px;
+    border-color: #8A9BB2;
+}
+
+.dropdown:hover{
+    border-color: #3B4450;
+}
+
+.dropdown:focus{
+    border-color: #3076F6;
+}
+
+.dropdown-content{
+    width: 160px;
+}

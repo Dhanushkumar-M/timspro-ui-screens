@@ -40,17 +40,34 @@
     font-weight: bold;
 }
 
-.text--box{
+.email--text--box{
     margin-top: 16px;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 20px;
+}
+
+.password--box{
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    -webkit-text-security: disc;
 }
 
 .login--details--view{
     font-family: "Roboto";
     margin-top: 5%;
-    margin-left: 15%;
+    margin-left: 14%;
+    color: #9F9E9C;
+}
+
+.forgot--pass{
+    font-family: "Roboto";
+    margin-left: 68%;
+    margin-top: -20%;
 }
 
 .square {

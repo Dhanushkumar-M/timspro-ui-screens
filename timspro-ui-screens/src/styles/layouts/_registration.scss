@@ -24,6 +24,23 @@
     position: relative;
 }
 
+.text--box{
+    margin-top: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    width: 85%;
+}
+
+.city--state--box{
+    margin-top: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:95%;
+}
+
 .register--btn--style{
     position: relative;
     right: 123px;

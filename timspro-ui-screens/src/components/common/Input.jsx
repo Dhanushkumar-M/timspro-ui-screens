@@ -8,7 +8,7 @@ export const Input = ({
   placeholder = "",
   inputMsg = "",
   inputValue="",
-  height = 35,
+  height = 40,
   width,
   msgStyles = {},
   id,

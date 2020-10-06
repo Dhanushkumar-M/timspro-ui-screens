@@ -11,6 +11,7 @@ import Landingpage from './components/pages/Landingpage'
 import Login from './components/pages/Login'
 import Registration from './components/pages/Registration'
 
+
 function App() {
   return (
     <>
